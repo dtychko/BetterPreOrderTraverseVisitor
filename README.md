@@ -1,0 +1,1 @@
+﻿Implementation of `System.Linq.Expressions.ExpressionVisitor` for efficient lazy pre-order traversal of `System.Linq.Expressions.Expression` tree.
