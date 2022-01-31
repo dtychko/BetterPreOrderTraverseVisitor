@@ -1,15 +1,21 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c55b2fc5_002D6480_002D4fc5_002D8e79_002Db2d51f4d961d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Foo" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::23F1A1BE-4536-4834-AFC2-6792F62CDF1F::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.PreOrderTraverseVisitorBenchmarks.Foo&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::8A7B823D-A4D4-4DD3-AE7F-AEF94F9943A1::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.PreOrderTraverseVisitorTests.Traverse4Test&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::8A7B823D-A4D4-4DD3-AE7F-AEF94F9943A1::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.PreOrderTraverseVisitorTests.TraverseTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
+	
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e830d92a_002Dd020_002D4006_002D99c0_002D70408c96c44f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PreOrderTraverseVisitorTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::8A7B823D-A4D4-4DD3-AE7F-AEF94F9943A1::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.UnitTests.PreOrderTraverseVisitorTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::23F1A1BE-4536-4834-AFC2-6792F62CDF1F::.NETFramework,Version=v4.6.2::PreOrderTraverseVisitor.Benchmarks.PreOrderTraverseVisitorBenchmarks.Foo&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;And&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;NUnit3x::8A7B823D-A4D4-4DD3-AE7F-AEF94F9943A1::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.UnitTests.PreOrderTraverseVisitorTests&lt;/TestId&gt;&#xD;
+        &lt;TestId&gt;NUnit3x::23F1A1BE-4536-4834-AFC2-6792F62CDF1F::.NETFramework,Version=v4.6.2::PreOrderTraverseVisitor.Benchmarks.PreOrderTraverseVisitorBenchmarks.Foo&lt;/TestId&gt;&#xD;
+        &lt;TestId&gt;NUnit3x::23F1A1BE-4536-4834-AFC2-6792F62CDF1F::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.Benchmarks.PreOrderTraverseVisitorBenchmarks.RunAll&lt;/TestId&gt;&#xD;
+        &lt;TestId&gt;NUnit3x::23F1A1BE-4536-4834-AFC2-6792F62CDF1F::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.Benchmarks.PreOrderTraverseVisitorBenchmarks&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+      &lt;Not&gt;&#xD;
+        &lt;Project Location="C:\Code\dtychko\BetterPreOrderTraverseVisitor\BetterPreOrderTraverseVisitor.UnitTests" Presentation="&amp;lt;BetterPreOrderTraverseVisitor.UnitTests&amp;gt;" /&gt;&#xD;
+      &lt;/Not&gt;&#xD;
+    &lt;/And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::23F1A1BE-4536-4834-AFC2-6792F62CDF1F::.NETFramework,Version=v4.6.2::BetterPreOrderTraverseVisitor.Benchmarks.PriorityQueueBenchmarks&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

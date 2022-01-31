@@ -33,6 +33,8 @@ namespace BetterPreOrderTraverseVisitor.UnitTests
 
                 actual.ShouldBe(expected, ignoreOrder: false);
             }
+
+            Console.WriteLine(CreateComplexExpression().ToString());
         }
 
         private static Expression CreateComplexExpression()

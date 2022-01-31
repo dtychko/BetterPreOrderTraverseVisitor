@@ -241,6 +241,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="PreOrderTraverseVisitorBenchmarks.cs" />
+        <Compile Include="PriorityQueueBenchmarks.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

@@ -245,10 +245,12 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="OptimizedSimplePriorityQueue.cs" />
         <Compile Include="PreOrderTraverseVisitor.cs" />
         <Compile Include="PriorityQueuePreOrderTraverseVisitor.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SimplePriorityQueue.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

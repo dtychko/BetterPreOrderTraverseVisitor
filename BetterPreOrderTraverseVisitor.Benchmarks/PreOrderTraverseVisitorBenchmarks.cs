@@ -6,7 +6,6 @@ using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Diagnosers;
 using BenchmarkDotNet.Running;
-using BetterPreOrderTraverseVisitor;
 using NUnit.Framework;
 
 namespace BetterPreOrderTraverseVisitor.Benchmarks
@@ -22,37 +21,49 @@ namespace BetterPreOrderTraverseVisitor.Benchmarks
         }
 
         [Benchmark]
-        public int PriorityQueuePreOrderTraverseVisitor_Count()
+        public Expression New_IEnumerable_First()
         {
-            return new PriorityQueuePreOrderTraverseVisitor().Traverse(Expr).Count();
+            return new PriorityQueuePreOrderTraverseVisitor().Traverse(Expr).First();
         }
 
         [Benchmark]
-        public Expression PriorityQueuePreOrderTraverseVisitor_Last()
+        public Expression New_IEnumerable_Last()
         {
             return new PriorityQueuePreOrderTraverseVisitor().Traverse(Expr).Last();
         }
 
         [Benchmark]
-        public Expression[] PriorityQueuePreOrderTraverseVisitor_ToArray()
+        public int New_IEnumerable_Count()
+        {
+            return new PriorityQueuePreOrderTraverseVisitor().Traverse(Expr).Count();
+        }
+
+        [Benchmark]
+        public Expression[] New_IEnumerable_ToArray()
         {
             return new PriorityQueuePreOrderTraverseVisitor().Traverse(Expr).ToArray();
         }
 
         [Benchmark]
-        public int PreOrderTraverseVisitor_Count()
+        public Expression Old_IEnumerable_First()
         {
-            return new PreOrderTraverseVisitor().Traverse(Expr).Count();
+            return new PreOrderTraverseVisitor().Traverse(Expr).First();
         }
 
         [Benchmark]
-        public Expression PreOrderTraverseVisitor_Last()
+        public Expression Old_IEnumerable_Last()
         {
             return new PreOrderTraverseVisitor().Traverse(Expr).Last();
         }
 
         [Benchmark]
-        public Expression[] PreOrderTraverseVisitor_ToArray()
+        public int Old_IEnumerable_Count()
+        {
+            return new PreOrderTraverseVisitor().Traverse(Expr).Count();
+        }
+
+        [Benchmark]
+        public Expression[] Old_IEnumerable_ToArray()
         {
             return new PreOrderTraverseVisitor().Traverse(Expr).ToArray();
         }
